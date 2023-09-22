@@ -23,5 +23,5 @@
   "license": "MIT",
   "description": "A CLI for creating and managing disbun projects",
   "bin": "./dist/index.js",
-  "version": "1.0.3"
+  "version": "1.0.4"
 }
