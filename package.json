@@ -1,0 +1,25 @@
+{
+  "name": "disbun-cli",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "clear&&nodemon",
+    "start": "clear&&bun run src/index.ts"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.11",
+    "nodemon": "^3.0.1"
+  },
+  "author": "Ethan Burkett",
+  "license": "MIT",
+  "description": "A CLI for creating and managing disbun projects",
+  "bin": "./src/index.ts"
+}
