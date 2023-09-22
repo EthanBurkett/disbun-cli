@@ -1,15 +1,19 @@
 # disbun-cli
 
-To install dependencies:
+## Install
 
 ```bash
-bun install
+bun add --global disbun-cli
 ```
 
-To run:
+## Initializing a project
 
 ```bash
-bun run src/index.ts
+disbun-cli
 ```
 
-This project was created using `bun init` in bun v1.0.2. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+## Adding commands, events, and a middleware
+
+```bash
+disbun-cli add <command|event|middleware>
+```
