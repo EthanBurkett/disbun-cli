@@ -21,5 +21,6 @@
   "author": "Ethan Burkett",
   "license": "MIT",
   "description": "A CLI for creating and managing disbun projects",
-  "bin": "./src/index.ts"
+  "bin": "./src/index.ts",
+  "version": "1.0.0"
 }
