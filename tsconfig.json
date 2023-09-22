@@ -19,5 +19,5 @@
       "bun-types" // add Bun global
     ]
   },
-  "exclude": ["./src/template/**/*"]
+  "exclude": ["dist/template/**/*"]
 }
