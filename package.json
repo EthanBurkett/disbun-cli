@@ -1,7 +1,6 @@
 {
   "name": "disbun-cli",
-  "module": "src/index.ts",
-  "type": "module",
+  "main": "dist/index.js",
   "devDependencies": {
     "@types/inquirer": "^9.0.3",
     "bun-types": "latest"
@@ -14,10 +13,9 @@
     "start": "clear&&bun run src/index.ts"
   },
   "dependencies": {
-    "chalk": "^5.3.0",
-    "inquirer": "^9.2.11",
-    "nodemon": "^3.0.1",
-    "bun": "^1.0.2"
+    "colors": "^1.4.0",
+    "disbun-cli": "1.0.4",
+    "inquirer": "^8.2.6"
   },
   "author": "Ethan Burkett",
   "license": "MIT",
