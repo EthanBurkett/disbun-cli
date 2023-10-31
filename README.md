@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-bun add --global disbun-cli
+npm i -g disbun-cli
 ```
 
 ## Initializing a project
