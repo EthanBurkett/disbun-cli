@@ -55,6 +55,16 @@ switch (command) {
         }.ts`,
         template
       );
+    } else if (answers.type === "Middleware") {
+      const template = fs.readFileSync(
+        `${__dirname}/template/middleware.ts`,
+        "utf-8"
+      );
+
+      fs.writeFileSync(
+        `${process.cwd()}/src/middleware/${answers.name}.ts`,
+        template
+      );
     }
   } else if (answers.path) {
     try {
