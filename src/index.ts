@@ -74,7 +74,10 @@ switch (command) {
 
       fs.writeFileSync(`${answers.path}/index.ts`, `// You can delete me :)`);
       fs.writeFileSync(`${answers.path}/src/index.ts`, index);
-      fs.writeFileSync(`${answers.path}/src/commands/ping.ts`, command);
+      fs.writeFileSync(
+        `${answers.path}/src/commands/ping.ts`,
+        command.replace(/{cmd_name}/g, "ping")
+      );
 
       const { stderr } = spawn("bun init -y", {
         cwd: answers.path,
