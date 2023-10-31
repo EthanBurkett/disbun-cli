@@ -9,11 +9,11 @@ bun add --global disbun-cli
 ## Initializing a project
 
 ```bash
-disbun-cli
+disbun
 ```
 
 ## Adding commands, events, and a middleware
 
 ```bash
-disbun-cli add <command|event|middleware>
+disbun add <command|event|middleware>
 ```
