@@ -2,8 +2,7 @@
   "name": "disbun-cli",
   "main": "dist/index.js",
   "devDependencies": {
-    "@types/inquirer": "^9.0.3",
-    "bun-types": "latest"
+    "@types/inquirer": "^9.0.3"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
@@ -14,7 +13,6 @@
   },
   "dependencies": {
     "colors": "^1.4.0",
-    "disbun-cli": "1.0.4",
     "inquirer": "^8.2.6"
   },
   "author": "Ethan Burkett",
